@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>0510b49f-6027-4c30-849d-945c817d9e3e</ProjectGuid>
+    <ProjectGuid>ba178d6a-7e26-4023-8641-dcd635e8eb5c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Iris_deep_learning.py</StartupFile>
+    <StartupFile>tensorflow_abalone.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Iris_deep_learning</Name>
-    <RootNamespace>Iris_deep_learning</RootNamespace>
+    <Name>tensorflow_abalone</Name>
+    <RootNamespace>tensorflow_abalone</RootNamespace>
     <InterpreterId>Global|PythonCore|3.6</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Iris_deep_learning.py" />
+    <Compile Include="tensorflow_abalone.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6" />

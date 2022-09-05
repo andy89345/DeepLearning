@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1913
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tensorflow_abalone", "tensorflow_abalone\tensorflow_abalone.pyproj", "{BA178D6A-7E26-4023-8641-DCD635E8EB5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87575D2A-3F83-4642-A5EB-2F180DBEF991}"
+	ProjectSection(SolutionItems) = preProject
+		tensorflow_abalone\abalone_train.csv = tensorflow_abalone\abalone_train.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA178D6A-7E26-4023-8641-DCD635E8EB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA178D6A-7E26-4023-8641-DCD635E8EB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBFA9BA8-C3B6-4E05-AE71-72F5EFE1C409}
+	EndGlobalSection
+EndGlobal
